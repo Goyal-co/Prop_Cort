@@ -128,11 +128,11 @@
   /* transform: translateX(4px); */
 }
 
-.nav-item.active {
+/* .nav-item.active {
   /* background: linear-gradient(90deg, #e3f2fd 0%, transparent 100%);
   color: #1976d2; */
   /* border-right: 3px solid #1976d2; */
-}
+/* } */ */
 
 .sidebar.dark-mode .nav-item {
   color: #adb5bd;
@@ -143,11 +143,11 @@
   color: #ffffff;
 }
 
-.sidebar.dark-mode .nav-item.active {
+/* .sidebar.dark-mode .nav-item.active {
   /* background: linear-gradient(90deg, #1e3a8a 0%, transparent 100%);
   color: #60a5fa;
   border-right-color: #60a5fa; */
-}
+/* } */ */
 
 /* Discover dropdown styles */
 .discover-item {
@@ -172,7 +172,7 @@
 
 .discover-item .nav-icon-txt{
   position: relative;
-  left: -58px;
+  left: 0px;
 }
 
 .discover-item:hover {
