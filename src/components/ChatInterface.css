@@ -495,9 +495,9 @@
 }
 
 .action-btn.analyze.selected:hover {
-  background: #f8f9fa;
-  border-color: #495057;
-  color: #495057;
+  background: #5a6268;
+  border-color: #5a6268;
+  color: white;
 }
 
 .action-btn.compare {
