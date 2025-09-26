@@ -92,18 +92,18 @@ class ApiService {
   }
 
   async login(email, password) {
+    // Default user_type to 'customer'. Change as needed for builder login.
     const response = await this.apiCall('/auth/login', {
       method: 'POST',
       body: JSON.stringify({
         email,
         password,
+        user_type: 'customer',
       }),
     });
-    
     if (response.token) {
       this.setToken(response.token);
     }
-    
     return response;
   }
 
